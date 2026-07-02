@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/kioskopay-demo/sw.js', { scope: '/kioskopay-demo/' })})}
